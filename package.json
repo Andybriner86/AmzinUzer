@@ -1,0 +1,23 @@
+{
+  "name": "amzinuzer",
+  "version": "1.0.0",
+  "description": "Andy Briner's personal",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andybriner86/AmzinUzer.git"
+  },
+  "author": "Andy Briner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andybriner86/AmzinUzer/issues"
+  },
+  "homepage": "https://github.com/Andybriner86/AmzinUzer#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
