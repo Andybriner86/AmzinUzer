@@ -1,0 +1,156 @@
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */ @font-face {font-family:"London Olympics 2012";src:url("LONDO___.eot?") format("eot"),url("LONDO___.woff") format("woff"),url("LONDO___.ttf") format("truetype"),url("LONDO___.svg#LondonOlympics2012") format("svg");font-weight:normal;font-style:normal;}
+
+#header-container {
+    height: 100px;
+    width: 100%;
+
+    position: relative;
+
+    margin-bottom: 20px;
+}
+
+.app-logo {
+    display: inline-block;
+
+    height: 100px;
+    width: 200px;
+
+    font-family: 'London Olympics 2012', Arial, Helvetica, sans-serif;
+}
+
+.amazin-logo {
+    height: 50%;
+    width: 100%;
+    color: red;
+
+    font-size: 50px;
+    text-align: center;
+}
+
+.muse-logo {
+    position: relative;
+    bottom: 18px;
+
+    height: 50%;
+    width: 100%;
+    color: blue;
+
+    text-align: center;
+    font-size: 66px;
+}
+
+#nav-container {
+    display:inline-block;
+    position: absolute;
+    
+    top: 50%;
+    left: 50%;
+}
+
+#nav-positioning {
+    position: relative;
+
+    left: -50%;
+    bottom: 15px;
+}
+
+.nav-link {
+    display: inline-block;
+    
+    text-decoration: underline;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin: 0 20px;
+}
+
+#social-container {
+    display:inline-block;
+    position: absolute;
+
+    top: 10px;
+    right: 10px;
+}
+
+.social-media-icon {
+    display: inline-block;
+}
+
+#video-container {
+    width: 100%;
+    text-align: center;
+
+    margin: 10% 0;
+}
+
+iframe {
+    height: 47.8125vw;
+    width: 85vw;
+}
+
+#calendar-container {
+    width: 100%;
+
+    text-align: center;
+
+    margin: 10% 0;
+}
+
+.calendar-entry  { 
+    width: 80%;
+
+    margin: 20px auto;
+}
+
+.date-container {
+    display: inline-block;
+
+    width: 40%;
+}
+
+.calendar-description {
+    display: inline-block;
+
+    width: 59%;
+}
+
+#spotify-songs-container {
+    width: 100%;
+    
+    text-align:center;
+
+    margin: 10% 0;
+}
+
+.album-container {
+    width: 80%;
+
+    margin: 20px auto;
+}
+
+.album-cover {
+    display:inline-block;
+
+    width: 100%;
+    height: 0;
+
+    padding-bottom: 100%;
+    overflow:hidden;
+
+    vertical-align: top;
+
+    border:solid black 1px;
+}
+
+.songs-list {
+    display: inline-block;
+
+    width: 59%;
+
+    vertical-align: top;
+}
+
+.song-link {
+    height: 15px;
+    margin: 10px 10px;
+}
