@@ -6,6 +6,10 @@ app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname + '/client/index.html'));
 })
 
+app.get('/client/:fileType/:fileName', function(req, res) {
+	res.sendFile(path.join(__dirname + `/client/${req.params.fileType}/${req.params.fileName}`));
+})
+
 app.get('*', function(req, res) {
 	res.redirect('/');
 })
